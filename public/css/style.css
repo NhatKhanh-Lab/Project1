@@ -80,8 +80,9 @@ a.more {
   height: 30px;
   line-height: 30px;
   text-align: center;
-  color: #444; /* Resolved conflict 1 */
+  color: #2c5a1f;
   font-weight: bold;
+  border-radius: 18px;
   background: url("../images/tooplate_button.png");
 }
 
