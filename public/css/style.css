@@ -176,6 +176,122 @@ a.more:hover {
   text-transform: uppercase;
 }
 
+#tooplate_menu {
+  clear: both;
+  width: 960px;
+  height: 50px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f7fbe7 0%, #d3ebaa 100%);
+  box-shadow: 0 4px 14px rgba(48, 93, 9, 0.22);
+  overflow: hidden;
+}
+
+#tooplate_menu ul {
+  float: left;
+  width: 740px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#tooplate_menu ul li {
+  float: left;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: url("../images/tooplate_menu_divider.png") no-repeat right center;
+}
+
+#tooplate_menu ul li a {
+  display: block;
+  width: 100px;
+  height: 32px;
+  padding: 8px 0 0;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #5fa008;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  outline: none;
+  border: none;
+  background: url("../images/tooplate_menu.png") no-repeat bottom center;
+}
+
+#tooplate_menu ul li a:hover,
+#tooplate_menu ul li .current {
+  color: #fff;
+  height: 38px;
+  padding: 5px 0 0;
+  background: url("../images/tooplate_menu_hover.png") bottom center no-repeat;
+  transition: color 0.2s ease;
+}
+
+#tooplate_menu ul .last {
+  background: none;
+}
+
+#search_box {
+  float: right;
+  margin: 11px 10px 0 0;
+  width: 170px;
+  height: 27px;
+  background: url("../images/tooplate_search.png") no-repeat;
+}
+
+#search_box form {
+  clear: both;
+  width: 170px;
+  height: 26px;
+  padding: 0;
+  margin: 0;
+}
+
+#searchfield {
+  float: left;
+  display: block;
+  width: 130px;
+  height: 16px;
+  padding: 5px;
+  color: #7c7c7c;
+  font-size: 12px;
+  line-height: 0;
+  background: none;
+  border: none;
+}
+
+#searchfield:focus {
+  outline: none;
+}
+
+#searchbutton {
+  float: right;
+  display: block;
+  width: 30px;
+  height: 26px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.menu_note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px 0;
+  color: #edf8df;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.menu_note a {
+  color: #f7ffd5;
+}
+
 #home_banner {
   margin-top: 26px;
   padding: 20px;
