@@ -400,4 +400,56 @@ a.more:hover {
   border-radius: 12px;
 }
 
+#tooplate_cr_wrapper {
+  clear: both;
+  width: 100%;
+  margin-top: 20px;
+  background: #081105;
+}
+
+#tooplate_cr {
+  width: 960px;
+  margin: 0 auto;
+  padding: 24px 20px 18px;
+  color: #9db18d;
+  background: #111;
+  letter-spacing: 0.3px;
+  box-sizing: border-box;
+}
+
+#tooplate_cr h4 {
+  margin: 0 0 10px;
+  color: #f2ffd8;
+  font-size: 16px;
+}
+
+#tooplate_cr a {
+  color: #c8f08b;
+  font-weight: bold;
+}
+
+.footer_columns {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.footer_block {
+  width: 290px;
+}
+
+.footer_block p,
+.footer_block a {
+  display: block;
+  margin: 0 0 8px;
+  color: #9db18d;
+  font-weight: normal;
+}
+
+.footer_copy {
+  margin: 0;
+  text-align: center;
+}
+
 
