@@ -82,7 +82,8 @@ a.more {
   text-align: center;
   color: #2c5a1f;
   font-weight: bold;
-  border-radius: 18px;
+  border-radius: 999px;
+  box-shadow: 0 8px 14px rgba(15, 47, 34, 0.25);
   background: url("../images/tooplate_button.png");
 }
 
